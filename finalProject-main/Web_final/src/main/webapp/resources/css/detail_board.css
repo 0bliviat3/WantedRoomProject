@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(0, 0px, 0) rotate(0deg);;
+  }
+
+  20%, 80% {
+    transform: translate3d(0, -2px, 0) rotate(5deg);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(0, 0px, 0) rotate(0deg);
+  }
+
+  40%, 60% {
+    transform: translate3d(0, -2px, 0) rotate(-5deg);
+  }
+}
